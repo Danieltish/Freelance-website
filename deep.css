@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+.deepworkers-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.deepworkers-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    position: relative;
+}
+
+.placeholder {
+    cursor: pointer;
+    margin-right: 10px;
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    width: 100px;  /* Fixed width for images */
+    height: 100px; /* Fixed height for images */
+    object-fit: cover; /* Resize image to cover the area */
+}
+
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    background-color: #ff4d4d; /* Red background for remove button */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.rating {
+    margin-left: 10px;
+}
+
+.profile-btn {
+    margin-left: 10px;
+    background-color: #28a745; /* Green background for profile button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.profile-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
